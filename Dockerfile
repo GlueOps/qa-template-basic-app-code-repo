@@ -1,4 +1,4 @@
 # Test Deployment
-FROM httpd:2.4.59@sha256:10182d88d7fbc5161ae0f6f758cba7adc56d4aae2dc950e51d72c0cf68967cea
+FROM httpd:2.4.60@sha256:a2e606d073cb054477e5af125f8dc5b10e2e2102937f0be6d5a94327e3e06246
 
 COPY ./index.html /usr/local/apache2/htdocs/
